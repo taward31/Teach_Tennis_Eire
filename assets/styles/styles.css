@@ -1,15 +1,66 @@
+body {
+background-color:#FFFAFA ;
+}
+
 header {
     font-size:x-large;
     font-weight:200;
+
+}
+
+header h1 {
+    
+    padding-left: 10%;
+    color:#34282C; 
+    font-size:50px;
+    font-weight:500;
+    
 }
 
 nav {
     text-align: right;
 }
 
-#intro_image{
-    height: 800px;
-    width: 150%;
-    background: url(../Images/tennis_main.jpeg) no-repeat center center;
+#intro_container{
+    position:relative;
+    height: 500px;
+    width: 100%;
+    background-size: 50%;
+    background-position: left;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#intro_image {
+    height: 400px;
+    width:400px;
+    position: absolute;
 
 }
+
+
+#block_text {
+position: absolute;
+right: 2px;px;
+}
+
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.intro_test_R1 {
+    position: absolute;
+    bottom: 100px;
+    left: 160px;
+    
+}
+
+#block_text {
+color:lawngreen;
+}
+
+
