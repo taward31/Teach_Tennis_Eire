@@ -43,13 +43,10 @@ nav {
    
 }
 
-
-
 /* Who Div 2 Styling - Text Box Area */
 
 #intro_text {
     
-   
     max-height: 90%;
     box-sizing: border-box ;
     height : 400px;
@@ -75,20 +72,77 @@ nav {
     text-align: center;
 }
 
+/* Who - Coach Detials and images stlying */
+
 .coach_a{
-    
-    width: 500px;
-    height: 500px;
-    border: 2px solid red;
-    border-radius: 50%;
+    display: inline-flex; 
+   
 }
 
 .coach_b{
+    display: inline-flex; 
+    padding-top:5%;
+   
+}
 
-    width: 500px;
-    height: 500px;
-    border: 2px solid red;
-    border-radius: 50%;
+
+.coach_a>h4,.coach_b>h4 {
+
+    position: relative;  
+    Top: 25px;
+    Left: 600px;
 
 }
+
+.coach_a > p,.coach_b > p {
+    font-style:italic;
+    font-weight:100;
+    color : #505050; 
+    position: relative;  
+    text-align:right;
+    top:100px; 
+    Left: 50px;
+    max-width:500px;
+
+}
+
+.coach_a > img {
+    width: 350px;
+    height: 350px;
+    border: 2px solid red;
+    border-radius: 50%;
+   
+}
+
+.coach_b > img {
+
+    padding-top:0%;
+
+    width: 350px;
+    height: 350px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position :relative;
+    right: 30px;
+   
+}
+
+
+.social_media{
+    text-align: center;
+ }
+
+ .social_media > li {
+    display: inline;
+ }
+
+ .social_media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #505050;
+ } 
+
+
+
 
