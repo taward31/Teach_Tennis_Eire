@@ -85,13 +85,10 @@ nav {
    
 }
 
-
 .coach_a>h4,.coach_b>h4 {
-
     position: relative;  
     Top: 25px;
     Left: 600px;
-
 }
 
 .coach_a > p,.coach_b > p {
@@ -117,16 +114,25 @@ nav {
 .coach_b > img {
 
     padding-top:0%;
-
     width: 350px;
     height: 350px;
     border: 2px solid red;
     border-radius: 50%;
     position :relative;
-    right: 30px;
-   
+    right: 30px; 
 }
 
+/* Location Times */
+
+.loco_block {
+    display:inline-flex;
+}
+
+.time_txt  {
+    padding-top:5px;
+}
+
+/* Footer Details  */
 
 .social_media{
     text-align: center;
@@ -142,6 +148,8 @@ nav {
     padding: 5%;
     color: #505050;
  } 
+
+
 
 
 
