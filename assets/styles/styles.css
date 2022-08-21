@@ -132,6 +132,14 @@ nav {
     padding-top:5px;
 }
 
+.time_list {
+position: relative;
+top: 20%;
+left:33%;
+}
+
+
+
 /* Footer Details  */
 
 .social_media{
