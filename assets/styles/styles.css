@@ -134,11 +134,32 @@ nav {
 
 .time_list {
 position: relative;
-top: 20%;
+top: 5%;
 left:33%;
 }
 
+#gmaps_block{
 
+    max-width:500px;
+    height: 350px;
+    position: relative;
+    left:50px;
+
+}
+
+.times > h2 {
+
+    position:relative;
+    left: 130px;
+   
+
+}
+
+#location_text {
+
+    position : relative;
+    left: 50px;
+}
 
 /* Footer Details  */
 
@@ -153,7 +174,7 @@ left:33%;
  .social_media i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     color: #505050;
  } 
 
