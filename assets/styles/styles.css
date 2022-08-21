@@ -3,6 +3,7 @@ background-color:#FFFAFA ;
 font-family: oswald, sans-serif;
 }
 
+
 header {
     font-family: fantasy;
     font-size:x-large;
@@ -135,24 +136,19 @@ nav {
 .time_list {
 position: relative;
 top: 5%;
-left:33%;
+left:50%;
 }
 
 #gmaps_block{
-
     max-width:500px;
     height: 350px;
     position: relative;
     left:50px;
-
 }
 
 .times > h2 {
-
-    position:relative;
-    left: 130px;
-   
-
+   position:relative;
+   left: 130px;
 }
 
 #location_text {
@@ -178,7 +174,12 @@ left:33%;
     color: #505050;
  } 
 
-
+footer > p {
+    
+    text-align: center;
+    color:#505050;
+    font-size: small;
+}
 
 
 
