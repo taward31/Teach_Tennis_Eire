@@ -64,13 +64,19 @@ nav {
 
     font-family: sans-serif;
     font-style: italic;
-    font-weight:300;
+    font-weight:600;
     text-align: center;
     
 }
 
 .intro_text_R2 {
-    text-align: center;
+    font-style:italic;
+    font-weight:300;
+    color : black; 
+    
+    text-align:center;
+    
+    
 }
 
 /* Who - Coach Detials and images stlying */
@@ -131,6 +137,7 @@ nav {
 
 .time_txt  {
     padding-top:5px;
+    font-family: fantasy;
 }
 
 .time_list {
@@ -147,6 +154,7 @@ left:50%;
 }
 
 .times > h2 {
+   font-family: fantasy;
    position:relative;
    left: 130px;
 }
@@ -155,6 +163,7 @@ left:50%;
 
     position : relative;
     left: 50px;
+    font-family: fantasy;
 }
 
 /* Footer Details  */
@@ -181,6 +190,37 @@ footer > p {
     font-size: small;
 }
 
+.lesson_text {
+
+    font-style:italic;
+    font-weight:100;
+    color : #505050; 
+    text-align:left;
+
+}
 
 
 
+.group > h2 {
+
+    font-family: fantasy;
+    font-size:x-large;
+    font-style: bold;
+    font-weight:1000;
+}
+
+.private > h2 {
+
+    font-family: fantasy;
+    font-size:x-large;
+    font-style: bold;
+    font-weight:1000;
+}
+
+.semi-private > h2 {
+
+    font-family: fantasy;
+    font-size:x-large;
+    font-style: bold;
+    font-weight:1000;
+}
