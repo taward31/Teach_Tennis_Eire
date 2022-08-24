@@ -224,3 +224,12 @@ footer > p {
     font-style: bold;
     font-weight:1000;
 }
+
+
+/* Form Styles  */
+
+.formdata{
+     border-style: outset;
+     border: 2px;
+     border-color: black;
+}
