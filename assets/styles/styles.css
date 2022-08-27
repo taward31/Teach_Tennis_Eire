@@ -126,7 +126,7 @@ nav {
     border: 2px solid red;
     border-radius: 50%;
     position :relative;
-    right: 30px; 
+    right: 0px; 
 }
 
 /* Location Times */
@@ -190,6 +190,30 @@ footer > p {
     font-size: small;
 }
 
+
+/* Lesson Styles  */
+
+
+
+
+.private,img {
+    
+     display: inline-flexbox;
+    max-width: 40%;
+   
+      
+  
+}
+
+.private,p{
+   
+    display: inline-flexbox;
+    max-width: 40%;
+
+}
+
+
+
 .lesson_text {
 
     font-style:italic;
@@ -198,8 +222,6 @@ footer > p {
     text-align:left;
 
 }
-
-
 
 .group > h2 {
 
