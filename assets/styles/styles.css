@@ -62,7 +62,7 @@ nav {
 
 .intro_text_R1 {
 
-    font-family: sans-serif;
+    font-family:fantasy;
     font-style: italic;
     font-weight:600;
     text-align: center;
@@ -70,8 +70,9 @@ nav {
 }
 
 .intro_text_R2 {
-    font-style:italic;
-    font-weight:300;
+
+    font-family:Oswald, sans-serif;
+    font-weight:700;
     color : black; 
     
     text-align:center;
@@ -193,148 +194,139 @@ footer > p {
 
 /* Lesson Styles  */
 
-
-.private_span > img {
-    
-   
-   max-width: 33%;
-   max-height: 33%;
-   display: inline-block;
-   position: relative;   
-   max-height: 500px;
-   width: 500px;
-   padding:2%;
-
-  
-}
-
 .private {
     border-style: solid;
     border-width: 2px;
     border-color: rgb(23, 114, 23);
     background-color: rgb(45, 186, 41, 0.25);
     border-radius: 5%;
+    max-width: 80%;
+    position: relative;
+    left:5%;
+    margin-bottom: 5px
+   
+}
+
+.group {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(205, 117, 2);
+    background-color: rgb(202, 151, 56, 0.6);
+    border-radius: 5%;
+    max-width: 80%;
+    position: relative;
+    left:5%;
     
 }
 
-.private >h2 {
-position: relative;
-left: 180px;
-font-family: fantasy;
-font-size:x-large;
-font-style: bold;
-font-weight:1000;
-}
-
-.private_span > p {
-
-    font-style:italic;
-    font-weight:200;
-    color : #505050; 
-    text-align:left;
-    max-width:33%;
-    display: inline-block;
+.semi-private {
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(105, 105, 105);
+    background-color: rgb(233, 233, 233 0.8);
+    border-radius: 5%;
+    max-width: 80%;
     position: relative;
-    padding:5%;
-    bottom: 110px;
-   
-;
-
-
+    left:5%;
+    margin-bottom: 5px
+    
 }
 
+
+.private_span > img {
+    
+    max-width:33%;
+    min-width: 25%;
+    display: inline-block; 
+    padding-left:5%;
+    top:20%;
+
+}
 
 .semi-private_span > img {
     
-   
-    max-width: 33%;
-    max-height: 50%;
-    display: inline-block;
-    position: relative;   
-    max-height: 500px;
-    width: 500px;
-    padding:2%;
-   
- }
- 
- .semi-private {
-     border-style: solid;
-     border-width: 2px;
-     border-color: rgb(105, 105, 105);
-     background-color: rgb(233, 233, 233);
-     border-radius: 5%;
- }
- 
- .semi-private >h2 {
-
-  font-family: fantasy;
-  font-size:x-large;
-  font-style: bold;
-  font-weight:1000;
-  position: relative;
-  left: 180px;
- }
- 
- .semi-private_span > p {
- 
-     font-style:italic;
-     font-weight:200;
-     color : #505050; 
-     text-align:left;
-     max-width:33%;
-     display: inline-block;
-     padding:5%;
-     position: relative;
-     bottom: 110px;
- 
-    
- 
+    max-width:33%;
+    display: inline-block; 
+    padding-left:5%;
+    top:25%;
  }
 
  .group_span > img {
    
-    max-width: 33%;
-    max-height: 50%;
-    display: inline-block;
-    position: relative;   
-    max-height: 500px;
-    width: 500px;
-    padding:2%;
+    max-width:33%;
+    display: inline-block; 
+    padding-left:5%;
+    top:25%;
    
  }
- 
- .group {
-     border-style: solid;
-     border-width: 2px;
-     border-color: rgb(205, 117, 2);
-     background-color: rgb(202, 151, 56);
-     border-radius: 5%;
- }
- 
- .group >h2 {
+
+
+
+#p-text {
+
+    font-style:italic;
+    color : #505050; 
+    text-align:left;
+    max-width:33%;
+    display: inline-block;
+    padding-left:5%;
+    
+   
+}
+
+#sp-text {
+
+    font-style:italic;
+    color : #505050; 
+    text-align:left;
+    max-width:33%;
+    display: inline-block;
+    padding-left:5%;
+}
+
+#g-text {
+
+    font-style:italic;
+    color : #505050; 
+    text-align:left;
+    max-width:33%;
+    display: inline-block;
+    padding-left:5%;
+    
+}
+
+
+ #group-header {
 
     font-family: fantasy;
     font-size:x-large;
     font-style: bold;
-  font-weight:1000;
-  position: relative;
-  left: 180px;
+    font-weight:1000;
+    position: center;
+    left: 180px;
  }
- 
- .group_span > p {
- 
-     font-style:italic,bold;
-     font-weight:200;
-     color : #3b3a3a; 
-     text-align:left;
-     max-width:33%;
-     display: inline-block;
-     padding:5%;
-     position: relative;
-     bottom: 110px;
- 
- 
+
+ #private-header {
+
+    font-family: fantasy;
+    font-size:x-large;
+    font-style: bold;
+    font-weight:1000;
+    position: center;
+    left: 180px;
  }
+
+ #semiprivate-header {
+
+    font-family: fantasy;
+    font-size:x-large;
+    font-style: bold;
+    font-weight:1000;
+    position: center;
+    left: 180px;
+ }
+
 
  .lesson_section > div {
 
@@ -354,8 +346,9 @@ font-weight:1000;
 
  #form-container {
        
-        background-image: url("../../assets/Images/sign-up.jpeg") ;
-        background-color: #cccccc;
+        background-image: url("../../assets/Images/signup5.jpg") ;
+        background-color: rgba(0, 0, 0);
+        opacity: .8;
         height: 800px;
         background-position: center;
         background-repeat: no-repeat;
@@ -364,9 +357,9 @@ font-weight:1000;
         text-align: center;
       }
 
-#form-container > h3 {
+ h3 {
 
-    Max-width : 50%;
+    
     font-family: fantasy, sans-serif;
     color: #FFFAFA;
     position: relative;
@@ -377,12 +370,11 @@ font-weight:1000;
 
  fieldset {
         border: 0;
-        Max-width : 50%;
         font-family: fantasy, sans-serif;
         color: #FFFAFA;
         position: relative;
         text-align: center;
-        left:340px
+        
     }
 
 .form_a > label {
@@ -425,8 +417,15 @@ font-weight:1000;
   
 }
 
-fieldset > H3 {
+ 
+@media screen and ( max-width:1200px) {
 
-    text-align: center;
-    
+
+    #form-container{
+
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto ;
+    }
 }
+
