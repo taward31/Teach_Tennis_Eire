@@ -20,30 +20,68 @@
             <a href="signup.html">Sign Up</a>
         </nav>
     </header>
+ <section>
 
-    
-    <form action ="https://formdump.codeinstitute.net" method="post">
+        <div id="form-container">
+
+         <h2 id="signup-intro">Let Us Know a Little About Yourself and Fill Out Your Contact Details 
+        and Our Team Will Call to Discuss a Lesson Soon</h2>
+
+        <form  class="form_a" action ="https://formdump.codeinstitute.net" method="post">
         
 
-    <h2>Get in contact with our Team and arrange a Lesson Today</h2>
+            
+
+            <fieldset >
+
+                <h3>I am interested in ? </h3>
+                <input type="radio" id="r_private" name="lesson_type" value="private">
+                <label for="private">Private Lessons</label><br>
+
+                <input type="radio" id="r_semi-private" name="lesson_type" value="semi-private">
+                <label for="semi-private">Semi-Private Lessons</label><br>
+
+                <input type="radio" id="r_group" name="lesson_type" value="group">
+                <label for="group">Group Lessons</label>
+
+                </fieldset>
+
+                <fieldset>
+
+                <h3>My current Level is ? </h3>
+                <input type="radio" id="r_advanced" name="skill_level" value="advanced">
+                <label for="advanced">Advanced </label><br>
+
+                <input type="radio" id="r_intermediate" name="skill_level" value="intermediate">
+                <label for="intermediate">Intermediate</label><br>
 
 
-     <label for="fname">First name:</label><br>
-     <input type="text" id="fname" name="fname" value="Rodger"><br>
-     <label for="lname">Last name:</label><br>
-     <input type="text" id="lname" name="lname" value="Federer"><br>
-     <label for="fname">Email:</label><br>
-     <input type="email" id="email" name="email" value="Rodger@usopen.Com"><br>
-     <label for="phone">Ph:</label><br>
-     <input type="text" id="" name="phone" value="123456789"><br><br>
+                <input type="radio" id="r_beginner" name="skill_level" value="beginner">
+                <label for="beginner">Beginner</label><br>
+                </fieldset>
 
-     <input type="submit" value="Submit">
+        
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="Rodger"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Federer"><br>
+            <label for="fname">Email:</label><br>
+            <input type="email" id="email" name="email" value="Rodger@usopen.Com"><br>
+            <label for="phone">Ph:</label><br>
+            <input type="text" id="" name="phone" value="123456789"><br><br>
+
+            <input type="submit" value="Submit">
      
     
+    
 
-</form> 
+        </form> 
+    </div>
+
+    
+</section>
+ 
         
-
 
 
 

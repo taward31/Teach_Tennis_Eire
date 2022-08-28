@@ -194,58 +194,152 @@ footer > p {
 /* Lesson Styles  */
 
 
-
-
-.private,img {
+.private_span > img {
     
-     display: inline-flexbox;
-    max-width: 40%;
    
-      
+   max-width: 33%;
+   max-height: 33%;
+   display: inline-block;
+   position: relative;   
+   max-height: 500px;
+   width: 500px;
+   padding:2%;
+
   
 }
 
-.private,p{
-   
-    display: inline-flexbox;
-    max-width: 40%;
-
+.private {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(23, 114, 23);
+    background-color: rgb(45, 186, 41, 0.25);
+    border-radius: 5%;
+    
 }
 
+.private >h2 {
+position: relative;
+left: 180px;
+font-family: fantasy;
+font-size:x-large;
+font-style: bold;
+font-weight:1000;
+}
 
-
-.lesson_text {
+.private_span > p {
 
     font-style:italic;
-    font-weight:100;
+    font-weight:200;
     color : #505050; 
     text-align:left;
+    max-width:33%;
+    display: inline-block;
+    position: relative;
+    padding:5%;
+    bottom: 110px;
+   
+;
+
 
 }
 
-.group > h2 {
+
+.semi-private_span > img {
+    
+   
+    max-width: 33%;
+    max-height: 50%;
+    display: inline-block;
+    position: relative;   
+    max-height: 500px;
+    width: 500px;
+    padding:2%;
+   
+ }
+ 
+ .semi-private {
+     border-style: solid;
+     border-width: 2px;
+     border-color: rgb(105, 105, 105);
+     background-color: rgb(233, 233, 233);
+     border-radius: 5%;
+ }
+ 
+ .semi-private >h2 {
+
+  font-family: fantasy;
+  font-size:x-large;
+  font-style: bold;
+  font-weight:1000;
+  position: relative;
+  left: 180px;
+ }
+ 
+ .semi-private_span > p {
+ 
+     font-style:italic;
+     font-weight:200;
+     color : #505050; 
+     text-align:left;
+     max-width:33%;
+     display: inline-block;
+     padding:5%;
+     position: relative;
+     bottom: 110px;
+ 
+    
+ 
+ }
+
+ .group_span > img {
+   
+    max-width: 33%;
+    max-height: 50%;
+    display: inline-block;
+    position: relative;   
+    max-height: 500px;
+    width: 500px;
+    padding:2%;
+   
+ }
+ 
+ .group {
+     border-style: solid;
+     border-width: 2px;
+     border-color: rgb(205, 117, 2);
+     background-color: rgb(202, 151, 56);
+     border-radius: 5%;
+ }
+ 
+ .group >h2 {
 
     font-family: fantasy;
     font-size:x-large;
     font-style: bold;
-    font-weight:1000;
-}
+  font-weight:1000;
+  position: relative;
+  left: 180px;
+ }
+ 
+ .group_span > p {
+ 
+     font-style:italic,bold;
+     font-weight:200;
+     color : #3b3a3a; 
+     text-align:left;
+     max-width:33%;
+     display: inline-block;
+     padding:5%;
+     position: relative;
+     bottom: 110px;
+ 
+ 
+ }
 
-.private > h2 {
+ .lesson_section > div {
 
-    font-family: fantasy;
-    font-size:x-large;
-    font-style: bold;
-    font-weight:1000;
-}
-
-.semi-private > h2 {
-
-    font-family: fantasy;
-    font-size:x-large;
-    font-style: bold;
-    font-weight:1000;
-}
+    padding:5%;
+ }
 
 
 /* Form Styles  */
@@ -254,4 +348,85 @@ footer > p {
      border-style: outset;
      border: 2px;
      border-color: black;
+}
+
+
+
+ #form-container {
+       
+        background-image: url("../../assets/Images/sign-up.jpeg");
+        background-color: #cccccc;
+        height: 800px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative; 
+        text-align: center;
+      }
+
+#form-container > h3 {
+
+    Max-width : 50%;
+    font-family: fantasy, sans-serif;
+    color: #FFFAFA;
+    position: relative;
+    text-align: center;
+    
+     
+}
+
+ fieldset {
+        border: 0;
+        Max-width : 50%;
+        font-family: fantasy, sans-serif;
+        color: #FFFAFA;
+        position: relative;
+        text-align: center;
+        left:340px
+    }
+
+.form_a > label {
+
+    Max-width : 50%;
+    font-family: fantasy, sans-serif;
+    color: #FFFAFA;
+    position: relative;
+    text-align: center;
+    Top:20%;
+    
+}
+
+.form_a >input {
+
+    position: relative;
+    text-align: left;
+    Top:20%;
+
+
+}
+
+.form {
+    position: relative;
+    text-align: left;
+    Top:20%;
+
+}
+
+#signup-intro{
+
+    max-width:50%;
+    
+    font-family: fantasy, sans-serif;
+    color: #FFFAFA;
+    position: relative;
+    text-align: center;
+    left:25%;
+    top:2%;
+  
+}
+
+fieldset > H3 {
+
+    text-align: center;
+    
 }
