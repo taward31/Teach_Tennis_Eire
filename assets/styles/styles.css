@@ -3,7 +3,6 @@ background-color:#FFFAFA ;
 font-family: oswald, sans-serif;
 }
 
-
 header {
     font-family: fantasy;
     font-size:x-large;
@@ -21,65 +20,65 @@ nav {
     text-align: right;
     color:#34282C;
     right : 50px;
-}
-
-#who , #what, #where  {
- 
- padding-top: 20px;
- padding-left: 15px;
- padding-right: 15px;
- padding-bottom: 10px;
-
+    margin:2%;
 }
 
 /* Who Div 1 Styling - Image Box Area */
-#intro_image {
 
-    max-width: 33%;
-    max-height: 33%;
-    height : 400px;
-    width : 900px ;
-    left : 100px ;
-    position: relative;
-   
-}
+.intro {
 
-/* Who Div 2 Styling - Text Box Area */
-
-#intro_text {
-    
-    max-height: 90%;
-    box-sizing: border-box ;
-    height : 400px;
-    width : 680px ;
-    font-size: 100%;
-    letter-spacing: 4px;
+    Max-width: 90%;
     background-color: rgb(241,109,107,0.7);
-    top: 200px;
-    right: 150px;
-    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
 
-.intro_text_R1 {
+.span_intro{
+    display:inlineblock;
+    max-width: 40%;
+}
+
+#intro_image {
+   
+    margin: 2%;
+    width: 40%;
+    height: 40%;
+    position: relative;
+    top:20px;
+    left:20px;
+}
+
+.intro_container {
+    display: inline-block;
+    margin: 1%;
+    max-width: 36%;
+    height: 40%;
+    position: relative;
+    bottom:20px;
+}
+
+#intro_text_R1 {
 
     font-family:fantasy;
     font-style: italic;
     font-weight:600;
     text-align: center;
-    
+    position: relative;
+    bottom:10%;
+    left:10%;
 }
 
-.intro_text_R2 {
-
+#intro_text_R2 {
     font-family:Oswald, sans-serif;
     font-weight:700;
     color : black; 
-    
-    text-align:center;
-    
-    
+    text-align:center;  
+    height: 70%;
+    position: relative;
+    bottom:10%;
+    left:10%;
 }
-
 /* Who - Coach Detials and images stlying */
 
 .coach_a{
@@ -234,67 +233,56 @@ footer > p {
 }
 
 
+
+
 .private_span > img {
     
+    width:300px;
+    height:400px
+
+}
+
+.semi-private_span > img {
+    
+    width:300px;
+    height:400px
+
+}
+
+.group_span > img {
+    
+    width:300px;
+    height:400px
+
+}
+
+.private_span  {
+    
     max-width:33%;
-    min-width: 25%;
     display: inline-block; 
     padding-left:5%;
     top:20%;
 
 }
 
-.semi-private_span > img {
+.semi-private_span  {
     
     max-width:33%;
     display: inline-block; 
     padding-left:5%;
-    top:25%;
+    top:20%;
  }
 
- .group_span > img {
+ .group_span {
    
     max-width:33%;
     display: inline-block; 
     padding-left:5%;
-    top:25%;
+    top:20%;
    
  }
 
 
-
-#p-text {
-
-    font-style:italic;
-    color : #505050; 
-    text-align:left;
-    max-width:33%;
-    display: inline-block;
-    padding-left:5%;
-    
-   
-}
-
-#sp-text {
-
-    font-style:italic;
-    color : #505050; 
-    text-align:left;
-    max-width:33%;
-    display: inline-block;
-    padding-left:5%;
-}
-
-#g-text {
-
-    font-style:italic;
-    color : #505050; 
-    text-align:left;
-    max-width:33%;
-    display: inline-block;
-    padding-left:5%;
-    
-}
 
 
  #group-header {
@@ -429,3 +417,11 @@ footer > p {
     }
 }
 
+
+
+@media screen and (max-width: 1040px){
+
+    .private_span,.semi-private_span,.group_span {
+   display: block;
+    }
+}
