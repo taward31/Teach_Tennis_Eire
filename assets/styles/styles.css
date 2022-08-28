@@ -354,7 +354,7 @@ font-weight:1000;
 
  #form-container {
        
-        background-image: url("../../assets/Images/sign-up.jpeg");
+        background-image: url("../../assets/Images/sign-up.jpeg") ;
         background-color: #cccccc;
         height: 800px;
         background-position: center;

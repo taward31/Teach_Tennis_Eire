@@ -34,7 +34,7 @@ This tennis lesson website is a landing page for potential tennis lessons studen
 ## Credits 
 
 
-        **SubHeading 1**
+        
         **SubHeading 2**
         **SubHeading 3**
 
