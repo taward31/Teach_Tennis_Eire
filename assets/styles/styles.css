@@ -23,16 +23,9 @@ nav {
     margin:2%;
 }
 
-/* Who Div 1 Styling - Image Box Area */
+/* Who Div 1 Styling - Intro IMG / Text Box Area */
 
-.intro {
 
-    Max-width: 90%;
-    background-color: rgb(241,109,107,0.7);
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
-}
 
 .span_intro{
     display:inlineblock;
@@ -40,77 +33,90 @@ nav {
 }
 
 #intro_image {
-   
+    display:inlineblock;
     margin: 2%;
-    width: 40%;
-    height: 40%;
-    position: relative;
+    max-width: 40%;
+    height: 400px;
+    vertical-align: center;
     top:20px;
     left:20px;
 }
 
 .intro_container {
-    display: inline-block;
+
+    width: 49%;
+    display:inline-block;
+    background-color: rgb(241,109,107,0.7);
+    margin-bottom: 10%;
+    
     margin: 1%;
-    max-width: 36%;
+    
     height: 40%;
     position: relative;
     bottom:20px;
 }
 
 #intro_text_R1 {
-
+    width:80%;
     font-family:fantasy;
     font-style: italic;
     font-weight:600;
     text-align: center;
     position: relative;
-    bottom:10%;
+    bottom:15%;
     left:10%;
+    vertical-align: middle;
 }
 
 #intro_text_R2 {
+    width:80%;
     font-family:Oswald, sans-serif;
     font-weight:700;
     color : black; 
     text-align:center;  
     height: 70%;
     position: relative;
-    bottom:10%;
+    bottom:15%;
     left:10%;
+    vertical-align: middle;
 }
 /* Who - Coach Detials and images stlying */
 
-.coach_a{
-    display: inline-flex; 
-   
+.coach_a {
+
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+
 }
+
+
 
 .coach_b{
-    display: inline-flex; 
-    padding-top:5%;
+    
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
    
 }
 
-.coach_a>h4,.coach_b>h4 {
-    position: relative;  
-    Top: 25px;
-    Left: 600px;
-}
 
-.coach_a > p,.coach_b > p {
+.item  > p {
+
+    display: inline-block;
+    vertical-align: middle;
     font-style:italic;
     font-weight:100;
     color : #505050; 
-    position: relative;  
-    text-align:right;
-    top:100px; 
-    Left: 50px;
-    max-width:500px;
+    text-align:center; 
+   
 
 }
 
-.coach_a > img {
+.item > img {
+
+    display: inline-block;
+    vertical-align: middle;
     width: 350px;
     height: 350px;
     border: 2px solid red;
@@ -118,16 +124,29 @@ nav {
    
 }
 
-.coach_b > img {
+.item_2  > p {
 
-    padding-top:0%;
+    display: inline-block;
+    vertical-align: middle;
+    font-style:italic;
+    font-weight:100;
+    color : #505050; 
+    text-align:center; 
+   
+
+}
+
+.item_2 > img {
+
+    display: inline-block;
+    vertical-align: middle;
     width: 350px;
     height: 350px;
     border: 2px solid red;
     border-radius: 50%;
-    position :relative;
-    right: 0px; 
+   
 }
+
 
 /* Location Times */
 
@@ -153,7 +172,7 @@ left:50%;
     left:50px;
 }
 
-.times > h2 {
+.loco_item > h2 {
    font-family: fantasy;
    position:relative;
    left: 130px;
@@ -423,5 +442,60 @@ footer > p {
 
     .private_span,.semi-private_span,.group_span {
    display: block;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+
+    .span_intro{
+   display: block;
+   min-width: 300px;
+   margin:1%;
+   position:initial;
+   
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+   #intro_text_R1{
+   display: block;
+   min-width: 300px;
+   margin:1%;
+   position:initial;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+   #intro_text_R2{
+   display: block;
+   min-width: 300px;
+   margin:1%;
+   position:initial;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+
+
+
+
+    #intro_image { display: block;
+        min-width: 300px;
+        margin:1%;
+        position:initial;}
+
+}
+
+
+
+@media screen and (max-width: 1200px){
+
+    .intro_container {
+        background-color:#FFFAFA;
+       position:initial;
     }
 }
