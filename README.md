@@ -42,7 +42,7 @@ Sign Up page
 
 ## Testing & Validation   
 
-W3 Validate Bug Report 
+W3 Validation was carried out 
 
 ## Credits 
 
@@ -51,6 +51,7 @@ The following websites/orgs where extremely helpful in assiting with my understa
 Technical assitacne credits 
 
 W3 School
+W3 Code validator 
 Stack Over flow 
 
 Inspitation Assistance credits and allocation of some images 
