@@ -454,7 +454,7 @@ footer > p {
   
 }
 
- 
+ /* Form Scaling  */
 @media screen and ( max-width:1200px) {
 
 
@@ -466,40 +466,53 @@ footer > p {
     }
 }
 
-
+ /* Lesson  Scaling  */
 
 @media screen and (max-width: 1200px){
 
-    .private,.semi-private,.group {
-   width:600px;
-   margin-left:50px;
-   margin-left:50px;
-   vertical-align: middle;
+    .private >img,.semi-private > img,.group > img{ 
+    
+    padding: 0;
 
-    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .private-text,.semi-private-text,.group-text{ 
+    
+    padding: 0;
+    text-align: center;
+    margin-left: 5%;
+    line-height:1.1;
+}
+}
+
+
+@media screen and (max-width: 800px){
+
+    .private >img,.semi-private > img,.group > img{ 
+    
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;   }
 }
 
 @media screen and (max-width: 800px){
 
-    .private,.semi-private,.group {
-   width:360px;
-   margin-left:25px;
-   margin-left:25px;
-   vertical-align: middle;
+    .private-text,.semi-private-text,.group-text{ 
+    
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+    max-height: 100%;
+    width: 100%;
+    line-height:1.0;
 
-    }
+}
 }
 
-@media screen and (max-width: 400px){
-
-    .private,.semi-private,.group {
-   width:360px;
-   margin-left:25px;
-   margin-left:25px;
-   vertical-align: middle;
-
-    }
-}
 
 
 
