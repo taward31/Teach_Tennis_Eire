@@ -618,11 +618,11 @@ footer > p {
 
  @media screen and (max-width: 1200px){
 
-    .time_list {
+    .time_listg {
   
      left:50px;
      vertical-align: middle;
-     
+    
      }
  }
 
