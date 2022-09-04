@@ -184,7 +184,7 @@ left:50%;
 }
 
 #gmaps_block{
-    max-width:500px;
+    max-width:75%;
     height: 350px;
     position: relative;
     left:50px;
@@ -583,42 +583,28 @@ footer > p {
      }
  }
 
- @media screen and (max-width: 1200px){
+ /* Index  Page Scaling - Location area   */
 
-    .loco_block {
-     padding: 0;
-     margin: 0 auto;
-     max-width: 80%;  
-     }
- }
 
- @media screen and (max-width: 1200px){
 
-    .loco_block {
-    display: inline-block;
-     padding: 0;
-     margin: 0 auto;
-     max-width: 80%;  
-     }
- }
 
  @media screen and (max-width: 1200px){
 
     .loco_block {
      display: inline-block;
-     left:50px;
      padding: 0;
      margin: 0 auto;
      max-width: 80%;  
      }
  }
+
+
 
  @media screen and (max-width: 1200px){
 
     .opening_text {
   
      left:50px;
-     
      }
  }
 
