@@ -46,7 +46,7 @@ h2 {
 
     background-color: rgb(3, 23, 238); ;
     color:whitesmoke;
-    padding: 2%;
+    padding: 5px;
     text-decoration: none;
     border-style: inset;
 }
@@ -468,12 +468,39 @@ footer > p {
 
 
 
-@media screen and (max-width: 1040px){
+@media screen and (max-width: 1200px){
 
-    .private_span,.semi-private_span,.group_span {
-   display: block;
+    .private,.semi-private,.group {
+   width:600px;
+   margin-left:50px;
+   margin-left:50px;
+   vertical-align: middle;
+
     }
 }
+
+@media screen and (max-width: 800px){
+
+    .private,.semi-private,.group {
+   width:360px;
+   margin-left:25px;
+   margin-left:25px;
+   vertical-align: middle;
+
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .private,.semi-private,.group {
+   width:360px;
+   margin-left:25px;
+   margin-left:25px;
+   vertical-align: middle;
+
+    }
+}
+
 
 
 @media screen and (max-width: 1200px){
