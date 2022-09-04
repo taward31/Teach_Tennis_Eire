@@ -19,29 +19,55 @@ header h1 {
 h2 { 
     padding-left: 4%;
     color:#34282C; 
-  
 }
 
 
-nav {
+#menu {
     text-align: right;
     color:#34282C;
     right : 50px;
-    margin:2%;
-    padding-right:4%;
+    padding-right:6%;
+    text-decoration: none;
+    list-style: none;
+}
+
+#menu > a {
+    text-decoration: none;
+    color: rgb(3, 23, 238); ;
+}
+
+#menu > a:hover{
+    color:rgb(241,109,107,0.7);
+    text-decoration: none;
+    background-color: rgb(3, 23, 238, 0.3); ;
+}
+
+.btn{
+
+    background-color: rgb(3, 23, 238); ;
+    color:whitesmoke;
+    padding: 2%;
+    text-decoration: none;
+    border-style: inset;
+}
+
+.btn:hover{
+    background-color:whitesmoke; ;
+    color: rgb(3, 23, 238);
+   
 }
 
 /* Who Div 1 Styling - Intro IMG / Text Box Area */
 
 
 .intro-container{
-    vertical-align:middle;
+    
     padding:4%;
 }
 
 #intro_pic{
-    max-width: 49%;
     height:500px;    
+    max-width: 48%;
 }
 
 .intro-item{
@@ -49,7 +75,6 @@ nav {
   max-width: 49%;
   max-height:500px;
   background-color: rgb(241,109,107,0.7);
-
   outline-color: rgb(241, 107, 114);
   vertical-align: top;
 }
@@ -178,6 +203,13 @@ left:50%;
     font-family: fantasy;
 }
 
+.opening_text {
+
+    position : relative;
+    left: 200px;
+    font-family: fantasy;
+}
+
 /* Footer Details  */
 
 .social_media{
@@ -247,52 +279,57 @@ footer > p {
 
 
 
-.private_span > img {
+.private > img{
     
     width:300px;
     height:400px
 
 }
 
-.semi-private_span > img {
+.private-text{
+    display:inline-block;
+    width:45%;
+    height:400px;
+    margin-left:10%;
+    line-height: 1.6;
+
+}
+
+.semi-private-text{
+    display:inline-block;
+    width:45%;
+    height:400px;
+    margin-left:10%;
+    line-height: 1.6;
+}
+
+.group-text{
+    display:inline-block;
+    width:45%;
+    height:400px;
+    margin-left:10%;
+    line-height: 1.6;
+
+}
+
+
+.semi-private > img {
     
     width:300px;
     height:400px
 
 }
 
-.group_span > img {
+.group > img {
     
     width:300px;
     height:400px
 
 }
 
-.private_span  {
-    
-    max-width:33%;
-    display: inline-block; 
-    padding-left:5%;
-    top:20%;
 
-}
 
-.semi-private_span  {
-    
-    max-width:33%;
-    display: inline-block; 
-    padding-left:5%;
-    top:20%;
- }
 
- .group_span {
-   
-    max-width:33%;
-    display: inline-block; 
-    padding-left:5%;
-    top:20%;
-   
- }
 
 
 
@@ -346,7 +383,7 @@ footer > p {
 
  #form-container {
        
-        background-image: url("../../Images/signup5.jpg") ;
+        background-image: url("../../Images/singup_6.jpg") ;
         background-color: rgba(0, 0, 0);
         opacity: .8;
         height: 800px;
