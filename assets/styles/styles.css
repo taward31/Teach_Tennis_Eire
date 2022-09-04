@@ -246,7 +246,8 @@ footer > p {
     max-width: 80%;
     position: relative;
     left:5%;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    margin-top:5%;
    
 }
 
@@ -391,6 +392,12 @@ footer > p {
         background-size: cover;
         position: relative; 
         text-align: center;
+        padding-top:5%;
+      }
+
+      .form-section{
+
+        padding-top:5%;
       }
 
  h4 {
