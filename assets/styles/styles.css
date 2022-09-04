@@ -385,7 +385,6 @@ footer > p {
        
         background-image: url("../../images/signup.jpg") ;
         background-color: rgba(0, 0, 0);
-        opacity: .8;
         height: 800px;
         background-position: center;
         background-repeat: no-repeat;
@@ -454,7 +453,7 @@ footer > p {
   
 }
 
- /* Form Scaling  */
+ /* Form Page Scaling  */
 @media screen and ( max-width:1200px) {
 
 
@@ -466,15 +465,9 @@ footer > p {
     }
 }
 
- /* Lesson  Scaling  */
+ /* Lesson  Page Scaling  */
 
-@media screen and (max-width: 1200px){
 
-    .private >img,.semi-private > img,.group > img{ 
-    
-    padding: 0;
-
-}
 
 @media screen and (max-width: 1200px){
 
@@ -514,58 +507,126 @@ footer > p {
 }
 
 
+ /* Index  Page Scaling  */
 
+ @media screen and (max-width: 800px){
 
-@media screen and (max-width: 1200px){
+    #intro_pic{ 
+    
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 90%;   }
+}
 
-    .span_intro{
-   display: block;
-   min-width: 300px;
-   margin:1%;
-   position:initial;
-   
-    }
+@media screen and (max-width: 800px){
+
+    .intro-item { 
+    
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 90%;
+   }
 }
 
 @media screen and (max-width: 1200px){
 
    #intro_text_R1{
-   display: block;
-   min-width: 300px;
-   margin:1%;
-   position:initial;
+    padding: 0;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 90%;  
+    font-size: 1.4rem;
+    padding-bottom: 20%;
     }
 }
 
 @media screen and (max-width: 1200px){
 
    #intro_text_R2{
-   display: block;
-   min-width: 300px;
-   margin:1%;
-   position:initial;
+    padding: 0;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;  
+    font-size: 1.1rem;
+    padding-bottom: 20%;
     }
-}
-
-@media screen and (max-width: 1200px){
-
-
-
-
-
-    #intro_image { display: block;
-        min-width: 300px;
-        margin:1%;
-        position:initial;}
-
 }
 
 
 
 @media screen and (max-width: 1200px){
 
-    .intro_container {
-        background-color:#FFFAFA;
-       position:initial;
-    }
-}
+    .item > img {
+     padding: 0;
+     margin: 0 auto;
+     max-width: 80%;  
+     }
+ }
+
+ @media screen and (max-width: 1200px){
+
+    .item_2 > img {
+     padding: 0;
+     margin: 0 auto;
+     max-width: 80%;  
+     }
+ }
+
+ @media screen and (max-width: 1200px){
+
+    .loco_block {
+     padding: 0;
+     margin: 0 auto;
+     max-width: 80%;  
+     }
+ }
+
+ @media screen and (max-width: 1200px){
+
+    .loco_block {
+    display: inline-block;
+     padding: 0;
+     margin: 0 auto;
+     max-width: 80%;  
+     }
+ }
+
+ @media screen and (max-width: 1200px){
+
+    .loco_block {
+     display: inline-block;
+     left:50px;
+     padding: 0;
+     margin: 0 auto;
+     max-width: 80%;  
+     }
+ }
+
+ @media screen and (max-width: 1200px){
+
+    .opening_text {
+  
+     left:50px;
+     
+     }
+ }
+
+
+ @media screen and (max-width: 1200px){
+
+    .time_list {
+  
+     left:50px;
+     vertical-align: middle;
+     
+     }
+ }
+
+
+
+
+
