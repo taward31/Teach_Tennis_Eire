@@ -16,53 +16,64 @@ header h1 {
     font-weight:500;
 }
 
+h2 { 
+    padding-left: 4%;
+    color:#34282C; 
+  
+}
+
+
 nav {
     text-align: right;
     color:#34282C;
     right : 50px;
     margin:2%;
+    padding-right:4%;
 }
 
 /* Who Div 1 Styling - Intro IMG / Text Box Area */
 
 
-.intro-item{
-  display: inline-block;
-  max-width: 46%;
-  height:500px;
-  /*background-color: rgb(241,109,107,0.7);*/
-  border:1px;
-  border-color: rgb(241,109,107);
-  vertical-align: top;
+.intro-container{
+    vertical-align:middle;
+    padding:4%;
 }
 
-#intro_pic {
+#intro_pic{
+    max-width: 49%;
+    height:500px;    
+}
 
-   z-index:1;
-   width:100%;
-   height:500px;
+.intro-item{
+  display: inline-block;
+  max-width: 49%;
+  max-height:500px;
+  background-color: rgb(241,109,107,0.7);
 
+  outline-color: rgb(241, 107, 114);
+  vertical-align: top;
 }
 
 #intro_text_R1 {
     
-    font-family:fantasy;
+    font-family:Apple Chancery;
+    color : rgb(3, 23, 238); 
     font-style: italic;
     font-weight:600;
     font-size: 1.4rem;
     vertical-align: middle;
     text-align: center;
-    
-  
+    padding:4%;
 }
 
 #intro_text_R2 {
     
-    font-family:Oswald, sans-serif;
-    font-weight:700;
-    font-size: 1.4rem;
-    color : rgb(3, 17, 169); 
+    font-size: 1.2rem;
     text-align: center;
+    padding:4%;
+    position:relative;
+    bottom:150px;
+
 }
 /* Who - Coach Detials and images stlying */
 
@@ -73,8 +84,6 @@ nav {
     text-align: center;
 
 }
-
-
 
 .coach_b{
     
@@ -162,7 +171,7 @@ left:50%;
    left: 130px;
 }
 
-#location_text {
+.location_text {
 
     position : relative;
     left: 50px;
@@ -348,7 +357,7 @@ footer > p {
         text-align: center;
       }
 
- h3 {
+ h4 {
 
     
     font-family: fantasy, sans-serif;

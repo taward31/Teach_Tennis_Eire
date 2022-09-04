@@ -42,7 +42,16 @@ Sign Up page
 
 ## Testing & Validation   
 
-W3 Validation was carried out 
+W3 Validation was carried out - 
+
+Some major issues Found - Index Page 
+
+Div inside Span  - To create inline blocks on my intro area I used Span functionality then to later stlye the content for this area I enclosed items in the intro area in Divs.
+
+ Upon Running the W3 Code validator This was flagged up as 
+
+
+"Error: Element "div" not allowed as child of element "span" in this context"
 
 ## Credits 
 
@@ -53,6 +62,7 @@ Technical assitacne credits
 W3 School
 W3 Code validator 
 Stack Over flow 
+Kevin Powell - Youtube Channel 
 
 Inspitation Assistance credits and allocation of some images 
 
