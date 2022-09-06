@@ -1,13 +1,17 @@
 # Tennis Lessons Eire 
 
-This tennis lesson website is a landing page for potential tennis lessons students who may want to avail of tennis lessons from qualified coaches in the norht co. Dublin region. 
+This tennis lesson website is a landing page for potential tennis lessons students who may want to avail of tennis lessons from qualified coaches in the north co. Dublin region. 
 
 
 ## Features
 
 Home/Index page 
 
-![alt text](http://url/to/img.png)
+
+<p >
+  <img src="images/Index.png" width="700"  height="700" title="Main Screen">
+</p>
+
 
        1 - Stlyish Header with Tennis Font Syling image 
        2 - Large heading text given celtic text stlying to tie in with "Eire" Website Name
@@ -17,8 +21,6 @@ Home/Index page
        6 - Critical information displayed on main page aka the when and where of lessons
        7 - google maps location feature added to assist in customer understanding of location
        8 - footer with social media links that open new tab accross all pages 
-
-
 
 Lessons Page 
  
