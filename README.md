@@ -7,9 +7,11 @@ This tennis lesson website is a landing page for potential tennis lessons studen
 
 Home/Index page 
 
+![alt text](http://url/to/img.png)
+
        1 - Stlyish Header with Tennis Font Syling image 
        2 - Large heading text given celtic text stlying to tie in with "Eire" Website Name
-       3 - Inpriation quote and inclusing welcome text to grab peoples attention and interest 
+       3 - Inpriation quote and including welcome text to grab peoples attention and interest 
        4 - Immeadiate link to sign up page to get more clicks to sing up page as this is purpose of website 
        5 - Immeadiate introduction to the coachs in a bright and inviting dispaly.
        6 - Critical information displayed on main page aka the when and where of lessons

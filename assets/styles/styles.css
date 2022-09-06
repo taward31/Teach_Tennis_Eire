@@ -57,6 +57,24 @@ h2 {
    
 }
 
+ .intro-item > a {
+    text-align: center;
+    position: relative;
+    margin:auto;
+    bottom:150px;
+}
+
+.tennis-points {
+    text-align: left;
+    list-style: circle;
+    position: relative;
+    left:20%;
+    bottom:175px;
+    color: rgb(3, 23, 238);
+    font-size: 1.2rem;
+}
+
+
 /* Who Div 1 Styling - Intro IMG / Text Box Area */
 
 
@@ -77,6 +95,7 @@ h2 {
   background-color: rgb(241,109,107,0.7);
   outline-color: rgb(241, 107, 114);
   vertical-align: top;
+  text-align: center;
 }
 
 #intro_text_R1 {
@@ -619,7 +638,11 @@ footer > p {
      }
  }
 
+ @media screen and (max-width: 1200px){
 
-
-
+    .tennis-points {
+  
+        left:auto;
+       
+        }}
 
