@@ -32,10 +32,10 @@
 
             
 
-            <fieldset >
+            <fieldset required   >
 
                 <h3>I am interested in ? </h3>
-                <input type="radio" id="r_private" name="lesson_type" value="private">
+                <input type="radio" id="r_private" name="lesson_type" value="private" required >
                 <label for="private">Private Lessons</label><br>
 
                 <input type="radio" id="r_semi-private" name="lesson_type" value="semi-private">
@@ -62,13 +62,12 @@
 
         
             <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="Rodger"><br>
+            <input type="text" id="fname" name="fname" placeholder="Rodger" required><br>
             <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Federer"><br>
+            <input type="text" id="lname" name="lname" placeholder="Federer" ><br>
             <label for="fname">Email:</label><br>
-            <input type="email" id="email" name="email" value="Rodger@usopen.Com"><br>
-            <label for="phone">Ph:</label><br>
-            <input type="text" id="" name="phone" value="123456789"><br><br>
+            <input type="email" id="email" name="email" placeholder="Rodger@usopen.com" required> <br>
+            <input type="tel" id="" name="phone" placeholder="0830367180" inputmode="numeric-only"  pattern="[0-9]+"  minlength="10" required><br><br>
 
             <input type="submit" value="Submit">
      
