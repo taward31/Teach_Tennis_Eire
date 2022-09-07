@@ -468,8 +468,7 @@ footer > p {
 
 #signup-intro{
 
-    max-width:50%;
-    
+    max-width:50%; 
     font-family: fantasy, sans-serif;
     color: #FFFAFA;
     position: relative;
@@ -485,7 +484,7 @@ footer > p {
 
     #form-container{
 
-        width: 65%;
+        width: 80%;
         height: 1200px;
         margin: 0 auto ;
     }
