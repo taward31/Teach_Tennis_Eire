@@ -112,14 +112,19 @@ Div inside Span  - To create inline blocks on my intro area I used Span function
 #### Screen Size Testing 
 
 The Pages where tested at different resulutions via google chrome inspect dev tools toolbar. 
-The Viewport set piints for media queries where design around the values 800px & 1200px 
+The Viewport set points for media queries where design around the values 800px & 1200px 
 
 #### Browser 
 
-Pages check on multiple broswer, Chrome, firefox and IE. 
+Pages checked on multiple broswers namelt, Chrome, firefox and Microsoft Edge. 
 
+#### CSS Valicator 
 
+<p >
+  <img src="images/CSS_Errors.png" width="800"  height="250" title="Sign Up Page ">
+</p>
 
+The following Errors where present when the CSS validator was ran. They have all been resovled. 
 
 ## Credits 
 
