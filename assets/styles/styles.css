@@ -287,7 +287,7 @@ footer > p {
     border-style: solid;
     border-width: 2px;
     border-color: rgb(105, 105, 105);
-    background-color: rgb(233, 233, 233 0.8);
+    background-color: rgb(233, 233, 233 );
     border-radius: 5%;
     max-width: 80%;
     position: relative;
@@ -358,19 +358,15 @@ footer > p {
 
     font-family: fantasy;
     font-size:x-large;
-    font-style: bold;
     font-weight:1000;
-    position: center;
     left: 180px;
  }
 
  #private-header {
 
     font-family: fantasy;
-    font-size:x-large;
-    font-style: bold;
+    font-size:x-large; 
     font-weight:1000;
-    position: center;
     left: 180px;
  }
 
@@ -378,9 +374,9 @@ footer > p {
 
     font-family: fantasy;
     font-size:x-large;
-    font-style: bold;
+    
     font-weight:1000;
-    position: center;
+    
     left: 180px;
  }
 
